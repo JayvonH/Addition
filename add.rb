@@ -15,4 +15,7 @@ class TestAddition < Minitest::Test
 	def test_30_plus_14_plus_3_returns_47
 		assert_equal(47,adding(30,14,3))
 	end
+	def test_15_plus_1_plus_105_plus_503_returns_624
+		assert_equal(624,sumo(15,1,105,503))
+	end
 end
