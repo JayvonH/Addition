@@ -12,4 +12,7 @@ class TestAddition < Minitest::Test
 	def test_9_plus_9_plus_9_returns_27
 		assert_equal(27,adding(9,9,9))
 	end
+	def test_30_plus_14_plus_3_returns_47
+		assert_equal(47,adding(30,14,3))
+	end
 end
